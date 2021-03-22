@@ -1,0 +1,100 @@
+ <!-- video section starts here -->
+ <section id="Video">
+    <div class="image-wrap">
+      <picture>
+        <source media="(max-width: 767px)" srcset="images/video1.jpg">
+        <img src="images/video.jpg" alt="Video Thumbnail">
+      </picture>
+    </div>
+    <div class="video-icon">
+      <h3>Video</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <br class="d-none d-lg-none d-xl-block" />Labore sapiente cumque est, quaerat sequi aperiam quae repellendus.</p>
+      <a class="popup-youtube-wst"  href="https://www.youtube.com/watch?v=0P6bFW99C7U"><i class="fas fa-play"></i></a>
+    </div>
+  </section>
+  <!-- video section ends here -->
+
+
+  
+#Video {
+	position: relative;
+}
+#Video .image-wrap img {
+	width: 100%;
+	height: auto;
+}
+#Video .video-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+#Video .video-icon h3 {
+	font: 500 26px/115% 'Open Sans', sans-serif;
+	color: #fff;
+	margin: 0 0 30px;
+}
+#Video .video-icon i {
+	font-size: 50px;
+	color: #fff;
+	transition: all 0.5s;
+}
+#Video .video-icon i:hover {
+	color: #19af83;
+	transition: all 0.5s;
+}
+#Video .video-icon p {
+	font: 400 16px/115% 'Open Sans', sans-serif;
+	color: #fff;
+	margin: 0 0 25px;
+
+
+
+
+    <div class="filter-list">
+        <ul>
+          <li class="active" data-filter="all">All
+          </li>
+          <li data-filter="branding">Branding
+          </li>
+          <li data-filter="marketing">Marketing
+          </li>
+          <li data-filter="media">Media
+          </li>
+          <li data-filter="photography">Photography
+          </li>
+          <li data-filter="web-design">Web Design
+          </li>
+        </ul>
+      </div>
+
+
+
+
+
+      <form action="#" method="post">
+        <div class="fname floating-label">
+          <input type="text" required class="floating-input" name="full name" />
+          <label for="title">Full Name</label>
+        </div>
+        <div class="email floating-label">
+          <input type="email" required class="floating-input" name="email" />
+          <label for="email">Email</label>
+        </div>
+        <div class="contact floating-label">
+          <input type="tel" class="floating-input" name="contact" />
+          <label for="email" required>Contact</label>
+        </div>
+        <div class="company floating-label">
+          <input type="text" class="floating-input" name="company" />
+          <label for="email">Company</label>
+        </div>
+        <div class="user-msg floating-label">
+          <textarea type="text" class="floating-input" name="Message"></textarea>
+          <label for="message" class="msg-label">Your Message</label>
+        </div>
+        <div class="submit-btn">
+          <button type="submit">Submit</button>
+        </div>
